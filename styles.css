@@ -1,9 +1,7 @@
 .table {
    width: 400px;
    height: 300px;
-
-   /* TODO: Add part of your solution here */
-   
+   background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
 .card-red {
@@ -16,25 +14,25 @@
 
 .card {
    background-color: whitesmoke;
-   border: 1px solid black;         
+   border: 1px solid black;   
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px black;      
    width: 100px;
    height: 160px;
    line-height: 160px;
    text-align: center;
    font-size: 80px;
-
-   /* TODO: Add part of your solution here */
-
+   position: absolute; /* Needed for precise placement */
 }      
 
 .card-top {
-   /* TODO: Add part of your solution here */
-
+   position: absolute;
+   left: 150px;
+   top: 100px;
 }
 
 .card-bottom {
-   /* TODO: Add part of your solution here */
-
+   position: absolute;
 }
 
 .heart {
@@ -54,7 +52,17 @@
 }
 
 .top-left {
-   /* TODO: Add part of your solution here */
+   position: absolute;
+   top: 5px;
+   left: 5px;
+}
+
+.bottom-right {
+   position: absolute;
+   bottom: 5px;
+   right: 5px;
+}
+
 
 }
 
