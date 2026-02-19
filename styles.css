@@ -33,8 +33,12 @@
 }
 
 .card-bottom {
-   /* TODO: Add part of your solution here */
-
+   /* Position the Bottom Card */
+   position: absolute;
+   left: 240px;
+   top: 120px;
+   /* Stack the Cards */
+   z-index: 1;
 }
 
 .heart {
@@ -54,11 +58,15 @@
 }
 
 .top-left {
-   /* TODO: Add part of your solution here */
-
+   /* Position Card Symbols */
+   position: absolute;
+   top: 2px;
+   left: 2px;
 }
 
 .bottom-right {
-   /* TODO: Add part of your solution here */
-
+   /* Position Card Symbols */
+   position: absolute;
+   bottom: 2px;
+   right: 2px;
 }
