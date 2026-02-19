@@ -1,6 +1,7 @@
 .table {
    width: 400px;
    height: 300px;
+   position: relative;
    background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
@@ -14,59 +15,55 @@
 
 .card {
    background-color: whitesmoke;
-   border: 1px solid black;   
-   border-radius: 5px;
-   box-shadow: 3px 3px 0px black;      
+   border: 1px solid black;
    width: 100px;
    height: 160px;
    line-height: 160px;
    text-align: center;
    font-size: 80px;
-   position: absolute; /* Needed for precise placement */
-}      
+   position: relative;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px black;
+}
 
 .card-top {
    position: absolute;
    left: 150px;
    top: 100px;
+   z-index: 1;
 }
 
 .card-bottom {
    position: absolute;
+   left: 240px;
+   top: 120px;
+   z-index: 2;
 }
 
 .heart {
    color: red;
-   font-size: 28px; 
+   font-size: 28px;
    width: 30px;
-   height: 30px;  
+   height: 30px;
    line-height: 30px;
 }
 
 .spade {
    color: black;
-   font-size: 36px; 
+   font-size: 36px;
    width: 30px;
-   height: 30px;  
+   height: 30px;
    line-height: 30px;
 }
 
 .top-left {
    position: absolute;
-   top: 5px;
-   left: 5px;
+   top: 2px;
+   left: 2px;
 }
 
 .bottom-right {
    position: absolute;
-   bottom: 5px;
-   right: 5px;
-}
-
-
-}
-
-.bottom-right {
-   /* TODO: Add part of your solution here */
-
+   bottom: 2px;
+   right: 2px;
 }
