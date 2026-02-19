@@ -15,44 +15,43 @@
 
 .card {
    background-color: whitesmoke;
-   border: 1px solid black;
+   border: 1px solid black;         
    width: 100px;
    height: 160px;
    line-height: 160px;
    text-align: center;
    font-size: 80px;
-   position: relative;
    border-radius: 5px;
    box-shadow: 3px 3px 0px black;
-}
+}      
 
 .card-top {
    position: absolute;
    left: 150px;
    top: 100px;
-   z-index: 1;
+   z-index: 2;
 }
 
 .card-bottom {
    position: absolute;
    left: 240px;
    top: 120px;
-   z-index: 2;
+   z-index: 1;
 }
 
 .heart {
    color: red;
-   font-size: 28px;
+   font-size: 28px; 
    width: 30px;
-   height: 30px;
+   height: 30px;  
    line-height: 30px;
 }
 
 .spade {
    color: black;
-   font-size: 36px;
+   font-size: 36px; 
    width: 30px;
-   height: 30px;
+   height: 30px;  
    line-height: 30px;
 }
 
